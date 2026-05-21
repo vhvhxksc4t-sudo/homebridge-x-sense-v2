@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge X-Sense",
   "name": "homebridge-x-sense-v2",
-  "version": "0.26.0",
+  "version": "0.26.1",
   "description": "X-Sense Homebridge Plugin",
   "homepage": "https://github.com/vhvhxksc4t-sudo/homebridge-x-sense-v2#readme",
   "main": "dist/index.js",
@@ -38,7 +38,7 @@
     "arm64"
   ],
   "engines": {
-    "node": ">=18",
+    "node": "^22.0.0 || ^24.0.0",
     "homebridge": "^1.3.0 || ^2.0.0"
   },
   "dependencies": {
