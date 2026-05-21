@@ -50,6 +50,20 @@ You can configure this plugin via the Homebridge UI. The available options are:
 }
 ```
 
+## Migrating from homebridge-x-sense
+
+If you have the original [`homebridge-x-sense`](https://www.npmjs.com/package/homebridge-x-sense) installed:
+
+> **Before uninstalling the old plugin, note down your X-Sense email and password from its config.** Uninstalling a Homebridge plugin removes its config entry — credentials won't carry over automatically.
+
+1. Note your `username` and `password` from the old plugin's config
+2. Install `homebridge-x-sense-v2` via the Homebridge UI
+3. Enter the same credentials in the new plugin's config
+4. Verify all sensors are discovered and working
+5. Uninstall `homebridge-x-sense`
+
+Homebridge will automatically migrate cached accessories to the new plugin name on first start.
+
 ## Troubleshooting
 
 *   **"Cognito authentication failed" Error:** This error almost always means your email or password is incorrect. Please double-check your credentials in the plugin configuration.
