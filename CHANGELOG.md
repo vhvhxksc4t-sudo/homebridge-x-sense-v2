@@ -1,3 +1,7 @@
+## [0.25.1](https://github.com/cropwell/homebridge-x-sense/compare/v0.25.0...v0.25.1) (2026-05-21)
+
+
+
 # 0.25.0 (2026-05-21)
 
 
