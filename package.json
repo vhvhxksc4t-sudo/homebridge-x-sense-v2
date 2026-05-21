@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge X-Sense",
   "name": "homebridge-x-sense-v2",
-  "version": "0.25.1",
+  "version": "0.25.2",
   "description": "X-Sense Homebridge Plugin",
   "main": "dist/index.js",
   "files": [
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cropwell/homebridge-x-sense.git"
+    "url": "git://github.com/vhvhxksc4t-sudo/homebridge-x-sense-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/cropwell/homebridge-x-sense/issues"
+    "url": "https://github.com/vhvhxksc4t-sudo/homebridge-x-sense-v2/issues"
   },
   "scripts": {
     "lint": "eslint src/**.ts --max-warnings=0",
