@@ -18,6 +18,8 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
     "outDir": "dist",
     "rootDir": "src"
   },
