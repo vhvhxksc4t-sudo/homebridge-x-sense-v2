@@ -1,6 +1,9 @@
 # Homebridge X-Sense
 
-[![npm](https://img.shields.io/npm/v/homebridge-x-sense.svg)](https://www.npmjs.com/package/homebridge-x-sense)
+[![npm](https://img.shields.io/npm/v/homebridge-x-sense-v2.svg)](https://www.npmjs.com/package/homebridge-x-sense-v2)
+
+> **This package (`homebridge-x-sense-v2`) is a community fork updated for Node.js 18+ with Homebridge 1.x/2.x support.**
+> Original plugin: [`homebridge-x-sense`](https://www.npmjs.com/package/homebridge-x-sense) by cropwell.
 
 This is a [Homebridge](https://homebridge.io) plugin for integrating X-Sense smoke and carbon monoxide detectors into Apple HomeKit. It uses the same unofficial API as the Home Assistant integration to provide real-time status updates for your devices.
 
@@ -21,7 +24,7 @@ This is a [Homebridge](https://homebridge.io) plugin for integrating X-Sense smo
 ## Installation
 
 1.  Install Homebridge using the [official instructions](https://github.com/homebridge/homebridge/wiki).
-2.  Install this plugin using the Homebridge UI or `npm install -g homebridge-x-sense`.
+2.  Install this plugin using the Homebridge UI (search **homebridge-x-sense-v2**) or `npm install -g homebridge-x-sense-v2`.
 3.  Configure the plugin using the Homebridge UI or by manually editing your `config.json` file.
 4.  The plugin uses temporary AWS credentials from X-Sense to sign the MQTT
     WebSocket connection.

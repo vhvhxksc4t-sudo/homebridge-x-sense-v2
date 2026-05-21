@@ -1,6 +1,6 @@
 {
   "displayName": "Homebridge X-Sense",
-  "name": "hb-x-sense-2",
+  "name": "homebridge-x-sense-v2",
   "version": "0.25.0",
   "description": "X-Sense Homebridge Plugin",
   "main": "dist/index.js",
